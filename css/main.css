@@ -1,0 +1,26 @@
+section {
+	display: flex; /* defaults to row layout */
+	justify-content: center; /* centers items horizontally in row layout */
+	align-items: center;
+	margin: 0; /* centers vertically in row layout */
+	/* flex-direction: column; will set layout to column instead of row */
+}
+
+button {
+	background-color: #a9a9a9;
+	color: white;
+}
+button:hover {
+	color: #a9a9a9;
+	background-color: white;
+}
+section #buttons {
+	display: flex; /* defaults to row layout */
+	justify-content: center; /* centers items horizontally in row layout */
+	align-items: center; /* centers vertically in row layout */
+	/* flex-direction: column; will set layout to column instead of row */
+}
+#input {
+	width: 25px;
+	text-align: center;
+}
